@@ -1,2 +1,2 @@
 # LZ4Unity
-A basic LZ4 (for) the Unity game engine.
+A basic wrapper for LZ4 (for) the Unity game engine.
