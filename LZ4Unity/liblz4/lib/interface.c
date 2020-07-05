@@ -19,7 +19,7 @@ LZ4FLIB_API int unity_LZ4_versionNumber()
 
 LZ4FLIB_API size_t unity_LZ4_versionString(char* buffer, size_t bufferSize)
 {
-	const char* version = LZ4_versionString();
+	const char* version = (const char*)LZ4_versionString();
 	size_t len = strlen(version);
 
 	strncpy_s(buffer, bufferSize, version, len);
